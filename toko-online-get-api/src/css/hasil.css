@@ -1,0 +1,17 @@
+.harga {
+  color: tomato;
+  margin-right: 0;
+}
+.hasil {
+  border: transparent;
+  margin-bottom: 100px;
+}
+.overflow-auto::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-height: 1000px) {
+  .hasil {
+    height: 450px;
+  }
+}
